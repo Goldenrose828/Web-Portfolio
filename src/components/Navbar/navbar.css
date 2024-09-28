@@ -1,0 +1,73 @@
+/* General Navbar styles */
+.navbar {
+    width: 100%; /* Cover full width */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 1rem 2rem;
+    box-sizing: border-box; /* Ensure padding doesn't cause overflow */
+    position: fixed; /* Make the navbar sticky at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+  
+  /* Logo styles */
+  .navbar-logo {
+    float: left; /* Float logo to the left */
+  }
+  
+  .navbar-logo .logo {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    
+  }
+  
+  /* Navbar links container */
+  .navbar-links {
+    list-style-type: none;
+    display: flex;
+    gap: 3rem; /* Space between links */
+    margin: 0; /* Reset default margins */
+    padding: 0; /* Reset default padding */
+    float: right; /* Float links to the right */
+    
+  }
+  
+  /* Link styles */
+  .navbar-links a {
+    text-decoration: none;
+    color: rgb(246, 246, 246);
+    
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    padding-bottom: 2px; /* Add padding for border hover effect */
+  }
+  
+  /* Hover effect: Border bottom */
+  .navbar-links a:hover {
+    border-bottom: 2px solid rgb(231, 239, 7);
+    color: yellow;
+  }
+  
+  /* Optional media query for responsiveness */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column; /* Stack items vertically on small screens */
+    }
+  
+    .navbar-links {
+      flex-direction: column;
+      gap: 1rem;
+      float: none; /* Remove floating on small screens */
+    }
+  
+    .navbar-logo .logo {
+      width: 40px;
+    }
+  }
+  

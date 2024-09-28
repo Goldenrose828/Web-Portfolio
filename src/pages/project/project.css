@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'DejaVu Sans Mono', monospace;
+}
+
+.projects-container {
+  min-height: 100vh;
+  background-image: url('../../components/imgs/project/projectpage-background.jpg'); /* Add your background image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 2rem;
+  color: white;
+}
+
+/* Projects Grid Layout */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 in a row */
+  gap: 2rem;
+  padding: 4rem 0;
+}
+
+.project-card {
+  background-color: rgba(255, 255, 255, 0.645); /* Slight transparency */
+  border-radius: 10px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.3s ease;
+  color: rgb(2, 2, 66);
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.project-card h3 {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+}
+
+.project-card p {
+  font-size: 1rem;
+}
+
+/* Update button and anchor styles */
+.project-card button {
+  background-color: rgba(222, 230, 5, 0.9); /* Custom color */
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+/* Ensure anchor inside button doesn't have white lines or default styles */
+.project-card button a {
+  color: rgb(2, 2, 66);
+  text-decoration: none;
+  font-size: 1rem;
+  display: block;
+  width: 100%; /* Ensure anchor fills the button */
+}
+
+.project-card button:hover {
+  background-color: rgba(0, 82, 164, 1);
+}
+
+/* Services Section */
+.services-section {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.services-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.services-section .service-button {
+  background-color: rgba(238, 238, 11, 0.868); /* Custom button color */
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: rgb(2, 2, 66);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+
+.services-section .service-button:hover {
+  background-color: rgb(255, 247, 7);
+}

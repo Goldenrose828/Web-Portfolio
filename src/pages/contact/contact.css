@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'DejaVu Sans Mono', monospace;
+  }
+  
+  .contact-container {
+    display: flex;
+    justify-content: flex-start; /* Align form to the left */
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../../components/imgs/contact/contact-bg.jpg'); /* Add your background image path */
+    background-size: cover;
+    background-position: center;
+    padding-left: 5rem; /* Add space from the left screen edge */
+  }
+  
+  .contact-form {
+    /* background-color: rgba(0, 0, 0, 0.7);  Dark overlay for the form */
+    padding: 3rem;
+    margin-top: 4rem;
+    border-radius: 10px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    margin-left: 5rem; /* Add additional left margin if needed */
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    padding: 0.75rem;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(255, 69, 0, 0.9);
+  }
+  
+  .submit-button {
+    background-color: rgba(255, 69, 0, 0.9);
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: white;
+  }
+  
+  .submit-button:hover {
+    background-color: rgba(200, 50, 0, 1);
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: #aaa;
+  }
+  

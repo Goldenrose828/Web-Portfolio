@@ -1,0 +1,27 @@
+/* Set the background color for the entire application */
+body {
+  background-image: url('./components/imgs/home/homebg1.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+
+  background-size: cover;
+  max-height: auto;
+  max-width: 100%;
+  position: relative;
+
+  margin: 0;
+  color: white;
+  font-family: 'Roboto Mono', monospace; /* Use an available monospace font */
+}
+
+/* Optional: Ensure links inherit the white color */
+a {
+  color: white;
+  text-decoration: none; /* Remove underline for links */
+}
+
+/* Optional: Add a consistent box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
