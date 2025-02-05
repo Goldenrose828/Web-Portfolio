@@ -10,26 +10,24 @@ const About = () =>{
         
         <div className="about-container">
             <div className="about-details">
-                <h1 className="about-title">Deepkumar Parejiya</h1>
+                <h1 className="about-title">Rose</h1>
                 <p className="about-description">
-                I am Deepkumar Parejiya, a passionate Software Engineering student at Centennial College with hands-on experience 
-                in full-stack web development, specializing in React, Node.js, and SQL. I am currently working on JUGAADAI.COM, a 
-                platform that helps users discover and select AI tools. My background includes managing projects, database design, 
-                and developing user-friendly applications.<br/><br/>
+                I am Rosemary Elochukwu Oliora, a dedicated Software Engineering student at Centennial College with hands-on experience in full-stack web development, specializing in React, Node.js, and SQL. 
+                I am currently working on a task management application, a platform that helps people with organizing their daily schedules and boosting productivity.
+                My background includes debugging and optimizing code, collaborating in team-based development environments, and implementing secure and scalable software solutions. <br/><br/>
 
-                I am pursuing a degree in Software Engineering from Centennial College, with part-time experience as a receptionist at 
-                Unionville Athletic Club and managerial experience at Pramukh Store. I am continually enhancing my skills in 
-                web development, backend systems, and AI.<br/><br/>
+                I am pursuing a degree in Software Engineering from Centennial College, with part-time experience as a Junior Developer at XYZ Company and managerial experience as a Team Lead at ABC Organization. 
+                I am continually enhancing my skills in web development, backend systems, and artificial intelligence.<br/><br/>
 
-                My technical skills include JavaScript, React, Node.js, SQL, and AI tool integration. I am also well-versed in backend 
-                development and have experience setting up Apache, OpenSSH, and Samba servers.<br/><br/>
+                My technical skills include JavaScript, React, Node.js, SQL, and integrating AI tools. 
+                I also have expertise in backend development and hands-on experience configuring Apache, OpenSSH, and Samba servers.<br/><br/>
 
-                Let's go to my Projects<br/>
+                Let's head to Projects<br/>
                 </p>
                 <Link to="../pages/Project"><button className="project-button">My Projects</button></Link>
             </div>
             <div className="about-image">
-                <img src={profimg} alt="Deepkumar Parejiya" />
+                <img src={profimg} alt="Rose" />
             </div>
         </div>
     )

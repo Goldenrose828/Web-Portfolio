@@ -11,7 +11,7 @@ import Email from '../../components/imgs/home/email.svg';
 const Home = () =>{
 
     const [typedText, setTypedText] = useState('');
-    const fullText = "I am Deepkumar Parejiya.";
+    const fullText = "I am Rosemary Elochukwu Oliora.";
   
     useEffect(() => {
         let index = 0;
@@ -19,7 +19,7 @@ const Home = () =>{
             setTypedText(fullText.slice(0, index + 1));
             index++;
             if (index === fullText.length) clearInterval(interval);
-        }, 150); // Adjust typing speed here
+        }, 150); 
         return () => clearInterval(interval);
     }, [fullText]);
 
@@ -29,7 +29,7 @@ const Home = () =>{
                     <h2 className="greeting">Hello, Welcome</h2>
                     <h1 className="title">{typedText}</h1>
                     <p className="description">
-                    I am a passionate software engineer with a keen interest in developing innovative solutions and learning new technologies. My journey in tech has been both exciting and fulfilling, and I look forward to connecting with you!
+                    I’m a dedicated software engineer with a strong enthusiasm for creating innovative solutions and exploring emerging technologies. My tech journey has been both rewarding and inspiring, and I’m excited about the opportunity to connect with you
                     </p>
                     <div className="social-icons">
                         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
@@ -38,7 +38,7 @@ const Home = () =>{
                         <a href="https://github.com" target="_blank" rel="noopener noreferrer">
                             <img src={Github} alt="GitHub" />
                         </a>
-                        <a href="mailto:pateldeep62157@gmail.com">
+                        <a href="mailto:Oliorarosemary@gmail.com">
                             <img src={Email} alt="Email" />
                         </a>
                     </div>   
@@ -47,10 +47,12 @@ const Home = () =>{
                 </div>
                 
                 {/*<div className="image-section">
-                    <img src={profimg} alt="Deepkumar Parejiya" className="profile-image" />
+                    <img src={profimg} alt="Rosemary" className="profile-image" />
                 </div>*/}
             </div>
         )
 };
+
+
 
 export default Home; 
