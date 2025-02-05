@@ -4,6 +4,7 @@ import './project.css';
 import Project1img from '../../components/imgs/project/project1.jpg';
 import Upcoming from '../../components/imgs/project/upcoming.png';
 
+
 const Project = () =>{
     return (
         
@@ -24,8 +25,9 @@ const Project = () =>{
                 {/* Project 2 */}
                 <div className="project-card">
                     <img src={Upcoming} alt="Project 2" />
-                    <h3>Upcoming project</h3>
-                    <p>I’m currently involved in a range of exciting projects centered on developing innovative software solutions and improving user experiences. Stay tuned for updates as I dive deeper into exploring and leveraging cutting-edge technologies!
+                    <h3>Club hub</h3>
+                    <p>A comprehensive software platform designed to unify all the clubs at Centennial College into a single, accessible application. The platform allows students to explore various clubs, join activities, and stay updated on events and announcements.
+                         Developed with a user-friendly interface and secure backend, Club Hub simplifies communication, fosters community engagement, and promotes collaboration among students and club organizers.
                     </p>
                     <button>
                         <a href="http://link-to-project5.com" target="_blank" rel="noopener noreferrer">Coming Soon...</a>
@@ -35,8 +37,9 @@ const Project = () =>{
                 {/* Project 3 */}
                 <div className="project-card">
                     <img src={Upcoming} alt="Project 3" />
-                    <h3>Upcoming project</h3>
-                    <p>I’m currently involved in a range of exciting projects centered on developing innovative software solutions and improving user experiences. Stay tuned for updates as I dive deeper into exploring and leveraging cutting-edge technologies!
+                    <h3>Health Data Analysis Using Excel</h3>
+                    <p>A data-driven project focused on analyzing health data from Ontario to uncover trends, generate insights, and identify potential areas for improvement in healthcare services. 
+                        Utilizing Excel’s advanced data analysis tools, such as pivot tables, charts, and statistical functions, this project aims to provide actionable insights to enhance decision-making and optimize healthcare delivery in the province.
                     </p>
                     <button>
                         <a href="http://link-to-project3.com" target="_blank" rel="noopener noreferrer">Coming Soon...</a>

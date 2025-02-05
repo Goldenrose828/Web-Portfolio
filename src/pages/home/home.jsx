@@ -29,7 +29,7 @@ const Home = () =>{
                     <h2 className="greeting">Hello, Welcome</h2>
                     <h1 className="title">{typedText}</h1>
                     <p className="description">
-                    I’m a dedicated software engineer with a strong enthusiasm for creating innovative solutions and exploring emerging technologies. My tech journey has been both rewarding and inspiring, and I’m excited about the opportunity to connect with you
+                    I’m a passionate Health Informatics Technology student with a strong drive for developing innovative healthcare solutions and exploring emerging technologies in the medical field. My journey in health tech has been both fulfilling and inspiring, and I’m eager to connect and collaborate with you.
                     </p>
                     <div className="social-icons">
                         <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">

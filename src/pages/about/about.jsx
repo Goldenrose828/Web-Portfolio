@@ -12,15 +12,14 @@ const About = () =>{
             <div className="about-details">
                 <h1 className="about-title">Rose</h1>
                 <p className="about-description">
-                I am Rosemary Elochukwu Oliora, a dedicated Software Engineering student at Centennial College with hands-on experience in full-stack web development, specializing in React, Node.js, and SQL. 
-                I am currently working on a task management application, a platform that helps people with organizing their daily schedules and boosting productivity.
-                My background includes debugging and optimizing code, collaborating in team-based development environments, and implementing secure and scalable software solutions. <br/><br/>
+                My name is Rosemary Elochukwu Oliora, and I am a passionate Health Informatics Technology student at Centennial College with practical experience in full-stack development, focusing on React, Node.js, and SQL.
+                I am currently working on openEMR a software that is used by Healthcare providers worldwide for managing patient records, Scheduling,  billing  and clinical decision support.<br/><br/>
 
-                I am pursuing a degree in Software Engineering from Centennial College, with part-time experience as a Junior Developer at XYZ Company and managerial experience as a Team Lead at ABC Organization. 
-                I am continually enhancing my skills in web development, backend systems, and artificial intelligence.<br/><br/>
+                 I am pursuing a degree in Health Informatics Technology at Centennial College, with part-time experience as a Junior Developer at XYZ Company and leadership experience as a Team Lead at ABC Organization. 
+                 I am continuously advancing my expertise in healthcare-focused software development, backend systems, and the integration of artificial intelligence in health informatics.<br/><br/>
 
-                My technical skills include JavaScript, React, Node.js, SQL, and integrating AI tools. 
-                I also have expertise in backend development and hands-on experience configuring Apache, OpenSSH, and Samba servers.<br/><br/>
+                 My technical skills include JavaScript, React, Node.js, SQL, and implementing AI-driven solutions.
+                 I also have experience in backend development and practical knowledge of setting up healthcare-related systems using Apache, OpenSSH, and Samba servers<br/><br/>
 
                 Let's head to Projects<br/>
                 </p>
