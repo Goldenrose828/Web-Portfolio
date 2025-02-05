@@ -23,7 +23,7 @@ const About = () =>{
 
                 Let's head to Projects<br/>
                 </p>
-                <Link to="../pages/Project"><button className="project-button">My Projects</button></Link>
+                <Link to="https://drive.google.com/file/d/1AaJQyDW-3nDLAsIKR0bt1msg9N53ZSj-/view?usp=drive_link"><button className="Resume">My Projects</button></Link>
             </div>
             <div className="about-image">
                 <img src={profimg} alt="Rose" />
