@@ -21,12 +21,9 @@ const About = () =>{
                  My technical skills include JavaScript, React, Node.js, SQL, and implementing AI-driven solutions.
                  I also have experience in backend development and practical knowledge of setting up healthcare-related systems using Apache, OpenSSH, and Samba servers<br/><br/>
 
-                Let's head to Projects<br/>
+                Let's head to my Resume<br/>
                 </p>
-                <a href="https://drive.google.com/file/d/1AaJQyDW-3nDLAsIKR0bt1msg9N53ZSj-/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-  <button className="project-button">My Resume</button>
-</a>
-
+                <Link href="https://drive.google.com/file/d/1AaJQyDW-3nDLAsIKR0bt1msg9N53ZSj-/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><button className="project-button">My Resume</button></Link>
             </div>
             <div className="about-image">
                 <img src={profimg} alt="Rose" />
